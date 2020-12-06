@@ -1,12 +1,22 @@
 {
-  "name": "awesome-reminder",
+  "name": "testpages",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":  "echo \"No test specified\""
+    "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiransiluveru/testpages.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiransiluveru/testpages/issues"
+  },
+  "homepage": "https://kiransiluveru.github.io/testpages",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
